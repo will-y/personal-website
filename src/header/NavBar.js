@@ -8,10 +8,10 @@ class NavBar extends React.Component {
         return (
           <div className="nav-bar">
               <Router>
-                  <NavComponent title="Test" path="/test" />
-                  <NavComponent title="Test" path="/test" />
-                  <NavComponent title="Test" path="/test" />
-                  <NavComponent title="Test" path="/test" />
+                  <NavComponent active={true} title="Test" path="/test" />
+                  <NavComponent active={false} title="Test" path="/test" />
+                  <NavComponent active={false} title="Test" path="/test" />
+                  <NavComponent active={false} title="Test" path="/test" />
               </Router>
           </div>
         );
