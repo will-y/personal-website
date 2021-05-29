@@ -2,3 +2,8 @@ body {
     background-color: #475777;
     color: white;
 }
+
+.container {
+    background-color: #475777;
+    min-height: 100vh;
+}
