@@ -7,7 +7,7 @@ class Header extends React.Component {
     render() {
         return (
             <div className="header">
-                <Navbar />
+                <Navbar activePath={this.props.activePath} pages={this.props.pages}/>
             </div>
         );
     }
