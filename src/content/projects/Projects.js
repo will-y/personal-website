@@ -1,7 +1,7 @@
 import React from 'react';
 import Project from "./Project";
 import './Projects.css';
-import {BrowserRouter as Router, Switch, Route, useRouteMatch, withRouter} from "react-router-dom";
+import {Switch, Route, withRouter} from "react-router-dom";
 import Snake from "./Snake";
 
 class Projects extends React.Component {

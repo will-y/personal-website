@@ -1,7 +1,9 @@
 .header {
     width: 100%;
-    height: 50px;
+    height: 6vh;
     background-color: #3d485e;
+    position: fixed;
+    top: 0;
 }
 
 .nav-bar {
