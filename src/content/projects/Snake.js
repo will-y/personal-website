@@ -1,13 +1,15 @@
 import React from 'react';
 import './Projects.css';
+import {Link} from "react-router-dom";
 
 class Snake extends React.Component {
     render() {
         return (
           <div className="projects-container">
+              <Link to="/projects" className="back-button">Back To Projects</Link>
               <h1>Snake Machine Learning</h1>
               <h2>Snake Game</h2>
-              <p>Snake is a very simple game where the player controls a snake. The goal is to collect dots that appear on the screen. Each dot collected will increase the snake's length by 1. The goal is to survive and collect as many dots as possible before running into a wall or yourself. More information <a href="https://en.wikipedia.org/wiki/Snake_(video_game_genre)" target="_blank" rel="noreferrer">here</a> and play the game <a href="https://playsnake.org/" target="_blank" rel="noreferrer">here</a>.</p>
+              <p>Snake is a very simple game where the player controls a snake. The goal is to collect dots that appear on the screen. Each dot collected will increase the snake's length by 1. The goal is to survive and collect as many dots as possible before running into a wall or yourself. More information <a href="https://en.wikipedia.org/wiki/Snake_(video_game_genre)" target="_blank" rel="noreferrer" className="project-link-text">here</a> and play the game <a href="https://playsnake.org/" target="_blank" rel="noreferrer" className="project-link-text">here</a>.</p>
               <h2>Motivation</h2>
               <p>Since Snake is a simple game, it is a good target for developing a neural network to play it. There is not a lot of data that has to be processed by the player, and the input into the game is very simple (move one of four directions). This made the game a good target for a first attempt for me to develop a neural network algorithm for learning to play a video game.</p>
               <h2>How it Works</h2>

@@ -17,7 +17,16 @@
     display:block;
 }
 
+.project-link-text {
+    color: white;
+}
+
 .projects-container {
     width: 80%;
     margin-left: 10%;
+}
+
+.back-button {
+    color: white;
+    margin-top: 5000px;
 }
