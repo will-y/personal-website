@@ -1,0 +1,23 @@
+.project-container {
+    width: 100%;
+    border-bottom: 2px solid black;
+    padding: 10px;
+}
+
+.project-title {
+
+}
+
+.project-description {
+
+}
+
+.project-link {
+    color: white;
+    display:block;
+}
+
+.projects-container {
+    width: 80%;
+    margin-left: 10%;
+}
