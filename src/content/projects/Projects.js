@@ -21,7 +21,7 @@ class Projects extends React.Component {
                         <Project title="Elemental Mastery" desc="A mod for Minecraft that adds many features to the base game." src="https://github.com/will-y/elementalmastery">
                             <a className="project-link" href="https://www.curseforge.com/minecraft/mc-mods/elemental-mastery" target="_blank" rel="noreferrer">More Information</a>
                         </Project>
-                        <Project title="On Rails" desc="A simple Ruby on Rails app that simulations ticket buying and train schedules for Amtrak trains. Connects to three different backend databases." src="https://github.com/will-y/on-rails" />
+                        <Project title="On Rails" desc="A simple Ruby on Rails app that simulates ticket buying and train schedules for Amtrak trains. Connects to three different backend databases." src="https://github.com/will-y/on-rails" />
                         <Project title="What's For Dinner?" desc="A simple Angular app that users can see upcoming plans for dinner as well as add new meals, and recipes. Includes an express backend server and a MongoDB database for storing data." src="https://github.com/will-y/WhatsForDinner">
                             <a className="project-link" href="https://github.com/will-y/WhatsForDinnerServer" target="_blank" rel="noreferrer">Source (Backend)</a>
                         </Project>
