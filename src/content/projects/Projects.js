@@ -6,7 +6,6 @@ import Snake from "./Snake";
 
 class Projects extends React.Component {
     render() {
-        console.log(this.props)
         return (
             <Switch>
                 <Route path={`${this.props.match.path}/snake`}>
