@@ -13,7 +13,7 @@ class Contact extends React.Component {
                     <div className="contact-container">
                         <a className="contact-box" href="mailto: yeltonwh@rose-hulman.edu" draggable={false}>
                             <div className="contact-content">
-                                <img className="contact-image" src={email} />
+                                <img className="contact-image" src={email} alt="Email Logo"/>
                                 <p className="contact-text">yeltonwh@rose-hulman.edu</p>
                             </div>
                         </a>
@@ -21,7 +21,7 @@ class Contact extends React.Component {
                     <div className="contact-container">
                         <a className="contact-box" href="https://github.com/will-y" target="_blank" rel="noreferrer" draggable={false}>
                             <div className="contact-content">
-                                <img className="contact-image" src={github} />
+                                <img className="contact-image" src={github} alt="Github Logo"/>
                                 <p className="contact-text">Will-Y On Github</p>
                             </div>
                         </a>
@@ -29,7 +29,7 @@ class Contact extends React.Component {
                     <div className="contact-container">
                         <a className="contact-box" href="https://www.linkedin.com/in/will-yelton/" target="_blank" rel="noreferrer" draggable={false}>
                             <div className="contact-content">
-                                <img className="contact-image" src={li} />
+                                <img className="contact-image" src={li} alt="LinkedIn Logo" />
                                 <p className="contact-text">LinkedIn</p>
                             </div>
                         </a>
