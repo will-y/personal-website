@@ -15,6 +15,9 @@ class Projects extends React.Component {
                 <Route path={this.props.match.path}>
                     <div className="projects-container">
                         <Project title="Snake Machine Learning" desc="A neural network that learns to play Snake." src="https://github.com/will-y/snake" demo="snake"/>
+                        <Project title="Bio-AI Demo App" desc="A demo app that contains some projects I worked on in the class Bio Inspired Artificial Intelligence." src="https://github.com/will-y/bioai">
+                            <a className="project-link" href="https://bioai.willyelton.dev" target="_blank" rel="noreferrer">View App</a>
+                        </Project>
                         <Project title="Elemental Mastery" desc="A mod for Minecraft that adds many features to the base game." src="https://github.com/will-y/elementalmastery">
                             <a className="project-link" href="https://www.curseforge.com/minecraft/mc-mods/elemental-mastery" target="_blank" rel="noreferrer">More Information</a>
                         </Project>
