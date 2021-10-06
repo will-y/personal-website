@@ -1,16 +1,17 @@
 import './App.css';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Home from './content/Home';
-import About from './content/About';
 import Projects from "./content/projects/Projects";
 import Contact from "./content/Contact";
 import Page from "./content/Page";
+import Resume from "./content/Resume"
 
 
 function App(props) {
     const pages = [
         {name: "Home", path: "/"},
-        {name: "About", path: "/about"},
+        // {name: "About", path: "/about"},
+        {name: "Resume", path: "/resume"},
         {name: "Projects", path: "/projects"},
         {name: "Contact Me", path: "/contact"}
     ]
@@ -19,9 +20,9 @@ function App(props) {
         <div className="container">
             <Router>
                 <Switch>
-                    <Route path="/about">
+                    <Route path="/resume">
                         <Page pages={pages}>
-                            <About />
+                            <Resume />
                         </Page>
 
                     </Route>
