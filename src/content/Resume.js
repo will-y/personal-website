@@ -2,7 +2,6 @@ import React from 'react';
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
 import "./Resume.css";
 import samplePDF from '../resources/pdf/resume.pdf';
-import {Link} from "react-router-dom"
 
 class Resume extends React.Component {
     render() {

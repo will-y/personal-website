@@ -1,0 +1,16 @@
+.about-container {
+    width: 75%;
+    margin: auto;
+}
+
+.about-container h1 {
+    font-size: 40px;
+}
+
+.about-container h2 {
+    font-size: 30px;
+}
+
+.about-container p {
+    font-size: 1.15em;
+}

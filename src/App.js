@@ -5,12 +5,13 @@ import Projects from "./content/projects/Projects";
 import Contact from "./content/Contact";
 import Page from "./content/Page";
 import Resume from "./content/Resume"
+import About from "./content/About"
 
 
 function App(props) {
     const pages = [
         {name: "Home", path: "/"},
-        // {name: "About", path: "/about"},
+        {name: "About", path: "/about"},
         {name: "Resume", path: "/resume"},
         {name: "Projects", path: "/projects"},
         {name: "Contact Me", path: "/contact"}
@@ -20,6 +21,11 @@ function App(props) {
         <div className="container">
             <Router>
                 <Switch>
+                    <Route path="/about">
+                        <Page pages={pages}>
+                            <About />
+                        </Page>
+                    </Route>
                     <Route path="/resume">
                         <Page pages={pages}>
                             <Resume />
